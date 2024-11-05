@@ -1,0 +1,66 @@
+[
+  {
+    "ContainingType": "MiWebAPI.Controllers.ProveedorController",
+    "Method": "AddProveedor",
+    "RelativePath": "api/Proveedor/AddProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "MiWebAPI.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiWebAPI.Controllers.ProveedorController",
+    "Method": "DeleteProveedor",
+    "RelativePath": "api/Proveedor/DeleteProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiWebAPI.Controllers.ProveedorController",
+    "Method": "Lista",
+    "RelativePath": "api/Proveedor/GetProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "filtro",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiWebAPI.Controllers.ProveedorController",
+    "Method": "UpdateProveedor",
+    "RelativePath": "api/Proveedor/UpdateProveedor",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "objeto",
+        "Type": "MiWebAPI.Models.Proveedor",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
